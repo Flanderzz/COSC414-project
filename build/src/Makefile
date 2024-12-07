@@ -117,6 +117,20 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+src/CMakeFiles/SchedulerCore.dir/rule:
+	cd /Users/devinechinemere/Documents/COSC414-project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/SchedulerCore.dir/rule
+.PHONY : src/CMakeFiles/SchedulerCore.dir/rule
+
+# Convenience name for target.
+SchedulerCore: src/CMakeFiles/SchedulerCore.dir/rule
+.PHONY : SchedulerCore
+
+# fast build rule for target.
+SchedulerCore/fast:
+	cd /Users/devinechinemere/Documents/COSC414-project/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/SchedulerCore.dir/build.make src/CMakeFiles/SchedulerCore.dir/build
+.PHONY : SchedulerCore/fast
+
+# Convenience name for target.
 src/CMakeFiles/CPU_Scheduler.dir/rule:
 	cd /Users/devinechinemere/Documents/COSC414-project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/CPU_Scheduler.dir/rule
 .PHONY : src/CMakeFiles/CPU_Scheduler.dir/rule
@@ -135,7 +149,7 @@ Process.o: Process.cpp.o
 
 # target to build an object file
 Process.cpp.o:
-	cd /Users/devinechinemere/Documents/COSC414-project/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/CPU_Scheduler.dir/build.make src/CMakeFiles/CPU_Scheduler.dir/Process.cpp.o
+	cd /Users/devinechinemere/Documents/COSC414-project/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/SchedulerCore.dir/build.make src/CMakeFiles/SchedulerCore.dir/Process.cpp.o
 .PHONY : Process.cpp.o
 
 Process.i: Process.cpp.i
@@ -143,7 +157,7 @@ Process.i: Process.cpp.i
 
 # target to preprocess a source file
 Process.cpp.i:
-	cd /Users/devinechinemere/Documents/COSC414-project/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/CPU_Scheduler.dir/build.make src/CMakeFiles/CPU_Scheduler.dir/Process.cpp.i
+	cd /Users/devinechinemere/Documents/COSC414-project/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/SchedulerCore.dir/build.make src/CMakeFiles/SchedulerCore.dir/Process.cpp.i
 .PHONY : Process.cpp.i
 
 Process.s: Process.cpp.s
@@ -151,7 +165,7 @@ Process.s: Process.cpp.s
 
 # target to generate assembly for a file
 Process.cpp.s:
-	cd /Users/devinechinemere/Documents/COSC414-project/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/CPU_Scheduler.dir/build.make src/CMakeFiles/CPU_Scheduler.dir/Process.cpp.s
+	cd /Users/devinechinemere/Documents/COSC414-project/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/SchedulerCore.dir/build.make src/CMakeFiles/SchedulerCore.dir/Process.cpp.s
 .PHONY : Process.cpp.s
 
 RoundRobin.o: RoundRobin.cpp.o
@@ -159,7 +173,7 @@ RoundRobin.o: RoundRobin.cpp.o
 
 # target to build an object file
 RoundRobin.cpp.o:
-	cd /Users/devinechinemere/Documents/COSC414-project/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/CPU_Scheduler.dir/build.make src/CMakeFiles/CPU_Scheduler.dir/RoundRobin.cpp.o
+	cd /Users/devinechinemere/Documents/COSC414-project/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/SchedulerCore.dir/build.make src/CMakeFiles/SchedulerCore.dir/RoundRobin.cpp.o
 .PHONY : RoundRobin.cpp.o
 
 RoundRobin.i: RoundRobin.cpp.i
@@ -167,7 +181,7 @@ RoundRobin.i: RoundRobin.cpp.i
 
 # target to preprocess a source file
 RoundRobin.cpp.i:
-	cd /Users/devinechinemere/Documents/COSC414-project/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/CPU_Scheduler.dir/build.make src/CMakeFiles/CPU_Scheduler.dir/RoundRobin.cpp.i
+	cd /Users/devinechinemere/Documents/COSC414-project/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/SchedulerCore.dir/build.make src/CMakeFiles/SchedulerCore.dir/RoundRobin.cpp.i
 .PHONY : RoundRobin.cpp.i
 
 RoundRobin.s: RoundRobin.cpp.s
@@ -175,7 +189,7 @@ RoundRobin.s: RoundRobin.cpp.s
 
 # target to generate assembly for a file
 RoundRobin.cpp.s:
-	cd /Users/devinechinemere/Documents/COSC414-project/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/CPU_Scheduler.dir/build.make src/CMakeFiles/CPU_Scheduler.dir/RoundRobin.cpp.s
+	cd /Users/devinechinemere/Documents/COSC414-project/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/SchedulerCore.dir/build.make src/CMakeFiles/SchedulerCore.dir/RoundRobin.cpp.s
 .PHONY : RoundRobin.cpp.s
 
 Scheduler.o: Scheduler.cpp.o
@@ -183,7 +197,7 @@ Scheduler.o: Scheduler.cpp.o
 
 # target to build an object file
 Scheduler.cpp.o:
-	cd /Users/devinechinemere/Documents/COSC414-project/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/CPU_Scheduler.dir/build.make src/CMakeFiles/CPU_Scheduler.dir/Scheduler.cpp.o
+	cd /Users/devinechinemere/Documents/COSC414-project/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/SchedulerCore.dir/build.make src/CMakeFiles/SchedulerCore.dir/Scheduler.cpp.o
 .PHONY : Scheduler.cpp.o
 
 Scheduler.i: Scheduler.cpp.i
@@ -191,7 +205,7 @@ Scheduler.i: Scheduler.cpp.i
 
 # target to preprocess a source file
 Scheduler.cpp.i:
-	cd /Users/devinechinemere/Documents/COSC414-project/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/CPU_Scheduler.dir/build.make src/CMakeFiles/CPU_Scheduler.dir/Scheduler.cpp.i
+	cd /Users/devinechinemere/Documents/COSC414-project/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/SchedulerCore.dir/build.make src/CMakeFiles/SchedulerCore.dir/Scheduler.cpp.i
 .PHONY : Scheduler.cpp.i
 
 Scheduler.s: Scheduler.cpp.s
@@ -199,7 +213,7 @@ Scheduler.s: Scheduler.cpp.s
 
 # target to generate assembly for a file
 Scheduler.cpp.s:
-	cd /Users/devinechinemere/Documents/COSC414-project/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/CPU_Scheduler.dir/build.make src/CMakeFiles/CPU_Scheduler.dir/Scheduler.cpp.s
+	cd /Users/devinechinemere/Documents/COSC414-project/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/SchedulerCore.dir/build.make src/CMakeFiles/SchedulerCore.dir/Scheduler.cpp.s
 .PHONY : Scheduler.cpp.s
 
 main.o: main.cpp.o
@@ -235,6 +249,7 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... CPU_Scheduler"
+	@echo "... SchedulerCore"
 	@echo "... Process.o"
 	@echo "... Process.i"
 	@echo "... Process.s"

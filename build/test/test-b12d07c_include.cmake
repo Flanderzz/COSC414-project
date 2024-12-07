@@ -1,0 +1,5 @@
+if(EXISTS "/Users/devinechinemere/Documents/COSC414-project/build/test/test-b12d07c_tests.cmake")
+  include("/Users/devinechinemere/Documents/COSC414-project/build/test/test-b12d07c_tests.cmake")
+else()
+  add_test(test_NOT_BUILT-b12d07c test_NOT_BUILT-b12d07c)
+endif()

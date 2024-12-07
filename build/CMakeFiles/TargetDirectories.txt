@@ -1,5 +1,9 @@
 /Users/devinechinemere/Documents/COSC414-project/build/CMakeFiles/edit_cache.dir
 /Users/devinechinemere/Documents/COSC414-project/build/CMakeFiles/rebuild_cache.dir
+/Users/devinechinemere/Documents/COSC414-project/build/src/CMakeFiles/SchedulerCore.dir
 /Users/devinechinemere/Documents/COSC414-project/build/src/CMakeFiles/CPU_Scheduler.dir
 /Users/devinechinemere/Documents/COSC414-project/build/src/CMakeFiles/edit_cache.dir
 /Users/devinechinemere/Documents/COSC414-project/build/src/CMakeFiles/rebuild_cache.dir
+/Users/devinechinemere/Documents/COSC414-project/build/test/CMakeFiles/test.dir
+/Users/devinechinemere/Documents/COSC414-project/build/test/CMakeFiles/edit_cache.dir
+/Users/devinechinemere/Documents/COSC414-project/build/test/CMakeFiles/rebuild_cache.dir

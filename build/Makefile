@@ -117,6 +117,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named SchedulerCore
+
+# Build rule for target.
+SchedulerCore: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 SchedulerCore
+.PHONY : SchedulerCore
+
+# fast build rule for target.
+SchedulerCore/fast:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/SchedulerCore.dir/build.make src/CMakeFiles/SchedulerCore.dir/build
+.PHONY : SchedulerCore/fast
+
+#=============================================================================
 # Target rules for targets named CPU_Scheduler
 
 # Build rule for target.
@@ -129,6 +142,19 @@ CPU_Scheduler/fast:
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/CPU_Scheduler.dir/build.make src/CMakeFiles/CPU_Scheduler.dir/build
 .PHONY : CPU_Scheduler/fast
 
+#=============================================================================
+# Target rules for targets named test
+
+# Build rule for target.
+test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test
+.PHONY : test
+
+# fast build rule for target.
+test/fast:
+	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/test.dir/build.make test/CMakeFiles/test.dir/build
+.PHONY : test/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -138,6 +164,8 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... CPU_Scheduler"
+	@echo "... SchedulerCore"
+	@echo "... test"
 .PHONY : help
 
 

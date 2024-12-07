@@ -64,20 +64,24 @@ CMAKE_BINARY_DIR = /Users/devinechinemere/Documents/COSC414-project/build
 
 # The main recursive "all" target.
 all: src/all
+all: test/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
 preinstall: src/preinstall
+preinstall: test/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
 clean: src/clean
+clean: test/clean
 .PHONY : clean
 
 #=============================================================================
 # Directory level rules for directory src
 
 # Recursive "all" directory target.
+src/all: src/CMakeFiles/SchedulerCore.dir/all
 src/all: src/CMakeFiles/CPU_Scheduler.dir/all
 .PHONY : src/all
 
@@ -86,22 +90,64 @@ src/preinstall:
 .PHONY : src/preinstall
 
 # Recursive "clean" directory target.
+src/clean: src/CMakeFiles/SchedulerCore.dir/clean
 src/clean: src/CMakeFiles/CPU_Scheduler.dir/clean
 .PHONY : src/clean
+
+#=============================================================================
+# Directory level rules for directory test
+
+# Recursive "all" directory target.
+test/all: test/CMakeFiles/test.dir/all
+.PHONY : test/all
+
+# Recursive "preinstall" directory target.
+test/preinstall:
+.PHONY : test/preinstall
+
+# Recursive "clean" directory target.
+test/clean: test/CMakeFiles/test.dir/clean
+.PHONY : test/clean
+
+#=============================================================================
+# Target rules for target src/CMakeFiles/SchedulerCore.dir
+
+# All Build rule for target.
+src/CMakeFiles/SchedulerCore.dir/all:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/SchedulerCore.dir/build.make src/CMakeFiles/SchedulerCore.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/SchedulerCore.dir/build.make src/CMakeFiles/SchedulerCore.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/devinechinemere/Documents/COSC414-project/build/CMakeFiles --progress-num=3,4,5,6 "Built target SchedulerCore"
+.PHONY : src/CMakeFiles/SchedulerCore.dir/all
+
+# Build rule for subdir invocation for target.
+src/CMakeFiles/SchedulerCore.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/devinechinemere/Documents/COSC414-project/build/CMakeFiles 4
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/SchedulerCore.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/devinechinemere/Documents/COSC414-project/build/CMakeFiles 0
+.PHONY : src/CMakeFiles/SchedulerCore.dir/rule
+
+# Convenience name for target.
+SchedulerCore: src/CMakeFiles/SchedulerCore.dir/rule
+.PHONY : SchedulerCore
+
+# clean rule for target.
+src/CMakeFiles/SchedulerCore.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/SchedulerCore.dir/build.make src/CMakeFiles/SchedulerCore.dir/clean
+.PHONY : src/CMakeFiles/SchedulerCore.dir/clean
 
 #=============================================================================
 # Target rules for target src/CMakeFiles/CPU_Scheduler.dir
 
 # All Build rule for target.
-src/CMakeFiles/CPU_Scheduler.dir/all:
+src/CMakeFiles/CPU_Scheduler.dir/all: src/CMakeFiles/SchedulerCore.dir/all
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/CPU_Scheduler.dir/build.make src/CMakeFiles/CPU_Scheduler.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/CPU_Scheduler.dir/build.make src/CMakeFiles/CPU_Scheduler.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/devinechinemere/Documents/COSC414-project/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target CPU_Scheduler"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/devinechinemere/Documents/COSC414-project/build/CMakeFiles --progress-num=1,2 "Built target CPU_Scheduler"
 .PHONY : src/CMakeFiles/CPU_Scheduler.dir/all
 
 # Build rule for subdir invocation for target.
 src/CMakeFiles/CPU_Scheduler.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/devinechinemere/Documents/COSC414-project/build/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/devinechinemere/Documents/COSC414-project/build/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/CPU_Scheduler.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/devinechinemere/Documents/COSC414-project/build/CMakeFiles 0
 .PHONY : src/CMakeFiles/CPU_Scheduler.dir/rule
@@ -114,6 +160,32 @@ CPU_Scheduler: src/CMakeFiles/CPU_Scheduler.dir/rule
 src/CMakeFiles/CPU_Scheduler.dir/clean:
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/CPU_Scheduler.dir/build.make src/CMakeFiles/CPU_Scheduler.dir/clean
 .PHONY : src/CMakeFiles/CPU_Scheduler.dir/clean
+
+#=============================================================================
+# Target rules for target test/CMakeFiles/test.dir
+
+# All Build rule for target.
+test/CMakeFiles/test.dir/all:
+	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/test.dir/build.make test/CMakeFiles/test.dir/depend
+	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/test.dir/build.make test/CMakeFiles/test.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/devinechinemere/Documents/COSC414-project/build/CMakeFiles --progress-num=7,8 "Built target test"
+.PHONY : test/CMakeFiles/test.dir/all
+
+# Build rule for subdir invocation for target.
+test/CMakeFiles/test.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/devinechinemere/Documents/COSC414-project/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/test.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/devinechinemere/Documents/COSC414-project/build/CMakeFiles 0
+.PHONY : test/CMakeFiles/test.dir/rule
+
+# Convenience name for target.
+test: test/CMakeFiles/test.dir/rule
+.PHONY : test
+
+# clean rule for target.
+test/CMakeFiles/test.dir/clean:
+	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/test.dir/build.make test/CMakeFiles/test.dir/clean
+.PHONY : test/CMakeFiles/test.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

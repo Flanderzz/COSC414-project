@@ -8,9 +8,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/devinechinemere/Documents/COSC414-project/src/Process.cpp" "src/CMakeFiles/CPU_Scheduler.dir/Process.cpp.o" "gcc" "src/CMakeFiles/CPU_Scheduler.dir/Process.cpp.o.d"
-  "/Users/devinechinemere/Documents/COSC414-project/src/RoundRobin.cpp" "src/CMakeFiles/CPU_Scheduler.dir/RoundRobin.cpp.o" "gcc" "src/CMakeFiles/CPU_Scheduler.dir/RoundRobin.cpp.o.d"
-  "/Users/devinechinemere/Documents/COSC414-project/src/Scheduler.cpp" "src/CMakeFiles/CPU_Scheduler.dir/Scheduler.cpp.o" "gcc" "src/CMakeFiles/CPU_Scheduler.dir/Scheduler.cpp.o.d"
   "/Users/devinechinemere/Documents/COSC414-project/src/main.cpp" "src/CMakeFiles/CPU_Scheduler.dir/main.cpp.o" "gcc" "src/CMakeFiles/CPU_Scheduler.dir/main.cpp.o.d"
   )
 

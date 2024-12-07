@@ -73,75 +73,28 @@ src/CMakeFiles/CPU_Scheduler.dir/main.cpp.o: src/CMakeFiles/CPU_Scheduler.dir/fl
 src/CMakeFiles/CPU_Scheduler.dir/main.cpp.o: /Users/devinechinemere/Documents/COSC414-project/src/main.cpp
 src/CMakeFiles/CPU_Scheduler.dir/main.cpp.o: src/CMakeFiles/CPU_Scheduler.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/devinechinemere/Documents/COSC414-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/CPU_Scheduler.dir/main.cpp.o"
-	cd /Users/devinechinemere/Documents/COSC414-project/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/CPU_Scheduler.dir/main.cpp.o -MF CMakeFiles/CPU_Scheduler.dir/main.cpp.o.d -o CMakeFiles/CPU_Scheduler.dir/main.cpp.o -c /Users/devinechinemere/Documents/COSC414-project/src/main.cpp
+	cd /Users/devinechinemere/Documents/COSC414-project/build/src && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/CPU_Scheduler.dir/main.cpp.o -MF CMakeFiles/CPU_Scheduler.dir/main.cpp.o.d -o CMakeFiles/CPU_Scheduler.dir/main.cpp.o -c /Users/devinechinemere/Documents/COSC414-project/src/main.cpp
 
 src/CMakeFiles/CPU_Scheduler.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CPU_Scheduler.dir/main.cpp.i"
-	cd /Users/devinechinemere/Documents/COSC414-project/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/devinechinemere/Documents/COSC414-project/src/main.cpp > CMakeFiles/CPU_Scheduler.dir/main.cpp.i
+	cd /Users/devinechinemere/Documents/COSC414-project/build/src && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/devinechinemere/Documents/COSC414-project/src/main.cpp > CMakeFiles/CPU_Scheduler.dir/main.cpp.i
 
 src/CMakeFiles/CPU_Scheduler.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CPU_Scheduler.dir/main.cpp.s"
-	cd /Users/devinechinemere/Documents/COSC414-project/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/devinechinemere/Documents/COSC414-project/src/main.cpp -o CMakeFiles/CPU_Scheduler.dir/main.cpp.s
-
-src/CMakeFiles/CPU_Scheduler.dir/Process.cpp.o: src/CMakeFiles/CPU_Scheduler.dir/flags.make
-src/CMakeFiles/CPU_Scheduler.dir/Process.cpp.o: /Users/devinechinemere/Documents/COSC414-project/src/Process.cpp
-src/CMakeFiles/CPU_Scheduler.dir/Process.cpp.o: src/CMakeFiles/CPU_Scheduler.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/devinechinemere/Documents/COSC414-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/CPU_Scheduler.dir/Process.cpp.o"
-	cd /Users/devinechinemere/Documents/COSC414-project/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/CPU_Scheduler.dir/Process.cpp.o -MF CMakeFiles/CPU_Scheduler.dir/Process.cpp.o.d -o CMakeFiles/CPU_Scheduler.dir/Process.cpp.o -c /Users/devinechinemere/Documents/COSC414-project/src/Process.cpp
-
-src/CMakeFiles/CPU_Scheduler.dir/Process.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CPU_Scheduler.dir/Process.cpp.i"
-	cd /Users/devinechinemere/Documents/COSC414-project/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/devinechinemere/Documents/COSC414-project/src/Process.cpp > CMakeFiles/CPU_Scheduler.dir/Process.cpp.i
-
-src/CMakeFiles/CPU_Scheduler.dir/Process.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CPU_Scheduler.dir/Process.cpp.s"
-	cd /Users/devinechinemere/Documents/COSC414-project/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/devinechinemere/Documents/COSC414-project/src/Process.cpp -o CMakeFiles/CPU_Scheduler.dir/Process.cpp.s
-
-src/CMakeFiles/CPU_Scheduler.dir/Scheduler.cpp.o: src/CMakeFiles/CPU_Scheduler.dir/flags.make
-src/CMakeFiles/CPU_Scheduler.dir/Scheduler.cpp.o: /Users/devinechinemere/Documents/COSC414-project/src/Scheduler.cpp
-src/CMakeFiles/CPU_Scheduler.dir/Scheduler.cpp.o: src/CMakeFiles/CPU_Scheduler.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/devinechinemere/Documents/COSC414-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/CPU_Scheduler.dir/Scheduler.cpp.o"
-	cd /Users/devinechinemere/Documents/COSC414-project/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/CPU_Scheduler.dir/Scheduler.cpp.o -MF CMakeFiles/CPU_Scheduler.dir/Scheduler.cpp.o.d -o CMakeFiles/CPU_Scheduler.dir/Scheduler.cpp.o -c /Users/devinechinemere/Documents/COSC414-project/src/Scheduler.cpp
-
-src/CMakeFiles/CPU_Scheduler.dir/Scheduler.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CPU_Scheduler.dir/Scheduler.cpp.i"
-	cd /Users/devinechinemere/Documents/COSC414-project/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/devinechinemere/Documents/COSC414-project/src/Scheduler.cpp > CMakeFiles/CPU_Scheduler.dir/Scheduler.cpp.i
-
-src/CMakeFiles/CPU_Scheduler.dir/Scheduler.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CPU_Scheduler.dir/Scheduler.cpp.s"
-	cd /Users/devinechinemere/Documents/COSC414-project/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/devinechinemere/Documents/COSC414-project/src/Scheduler.cpp -o CMakeFiles/CPU_Scheduler.dir/Scheduler.cpp.s
-
-src/CMakeFiles/CPU_Scheduler.dir/RoundRobin.cpp.o: src/CMakeFiles/CPU_Scheduler.dir/flags.make
-src/CMakeFiles/CPU_Scheduler.dir/RoundRobin.cpp.o: /Users/devinechinemere/Documents/COSC414-project/src/RoundRobin.cpp
-src/CMakeFiles/CPU_Scheduler.dir/RoundRobin.cpp.o: src/CMakeFiles/CPU_Scheduler.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/devinechinemere/Documents/COSC414-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/CPU_Scheduler.dir/RoundRobin.cpp.o"
-	cd /Users/devinechinemere/Documents/COSC414-project/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/CPU_Scheduler.dir/RoundRobin.cpp.o -MF CMakeFiles/CPU_Scheduler.dir/RoundRobin.cpp.o.d -o CMakeFiles/CPU_Scheduler.dir/RoundRobin.cpp.o -c /Users/devinechinemere/Documents/COSC414-project/src/RoundRobin.cpp
-
-src/CMakeFiles/CPU_Scheduler.dir/RoundRobin.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CPU_Scheduler.dir/RoundRobin.cpp.i"
-	cd /Users/devinechinemere/Documents/COSC414-project/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/devinechinemere/Documents/COSC414-project/src/RoundRobin.cpp > CMakeFiles/CPU_Scheduler.dir/RoundRobin.cpp.i
-
-src/CMakeFiles/CPU_Scheduler.dir/RoundRobin.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CPU_Scheduler.dir/RoundRobin.cpp.s"
-	cd /Users/devinechinemere/Documents/COSC414-project/build/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/devinechinemere/Documents/COSC414-project/src/RoundRobin.cpp -o CMakeFiles/CPU_Scheduler.dir/RoundRobin.cpp.s
+	cd /Users/devinechinemere/Documents/COSC414-project/build/src && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/devinechinemere/Documents/COSC414-project/src/main.cpp -o CMakeFiles/CPU_Scheduler.dir/main.cpp.s
 
 # Object files for target CPU_Scheduler
 CPU_Scheduler_OBJECTS = \
-"CMakeFiles/CPU_Scheduler.dir/main.cpp.o" \
-"CMakeFiles/CPU_Scheduler.dir/Process.cpp.o" \
-"CMakeFiles/CPU_Scheduler.dir/Scheduler.cpp.o" \
-"CMakeFiles/CPU_Scheduler.dir/RoundRobin.cpp.o"
+"CMakeFiles/CPU_Scheduler.dir/main.cpp.o"
 
 # External object files for target CPU_Scheduler
 CPU_Scheduler_EXTERNAL_OBJECTS =
 
 src/CPU_Scheduler: src/CMakeFiles/CPU_Scheduler.dir/main.cpp.o
-src/CPU_Scheduler: src/CMakeFiles/CPU_Scheduler.dir/Process.cpp.o
-src/CPU_Scheduler: src/CMakeFiles/CPU_Scheduler.dir/Scheduler.cpp.o
-src/CPU_Scheduler: src/CMakeFiles/CPU_Scheduler.dir/RoundRobin.cpp.o
 src/CPU_Scheduler: src/CMakeFiles/CPU_Scheduler.dir/build.make
+src/CPU_Scheduler: src/libSchedulerCore.a
 src/CPU_Scheduler: src/CMakeFiles/CPU_Scheduler.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/devinechinemere/Documents/COSC414-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable CPU_Scheduler"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/devinechinemere/Documents/COSC414-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable CPU_Scheduler"
 	cd /Users/devinechinemere/Documents/COSC414-project/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/CPU_Scheduler.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

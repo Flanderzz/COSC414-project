@@ -1,0 +1,32 @@
+[
+{
+  "directory": "/Users/devinechinemere/Documents/COSC414-project/build/src",
+  "command": "/usr/bin/clang++  -I/Users/devinechinemere/Documents/COSC414-project/src -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -mmacosx-version-min=13.5 -o CMakeFiles/SchedulerCore.dir/Scheduler.cpp.o -c /Users/devinechinemere/Documents/COSC414-project/src/Scheduler.cpp",
+  "file": "/Users/devinechinemere/Documents/COSC414-project/src/Scheduler.cpp",
+  "output": "src/CMakeFiles/SchedulerCore.dir/Scheduler.cpp.o"
+},
+{
+  "directory": "/Users/devinechinemere/Documents/COSC414-project/build/src",
+  "command": "/usr/bin/clang++  -I/Users/devinechinemere/Documents/COSC414-project/src -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -mmacosx-version-min=13.5 -o CMakeFiles/SchedulerCore.dir/RoundRobin.cpp.o -c /Users/devinechinemere/Documents/COSC414-project/src/RoundRobin.cpp",
+  "file": "/Users/devinechinemere/Documents/COSC414-project/src/RoundRobin.cpp",
+  "output": "src/CMakeFiles/SchedulerCore.dir/RoundRobin.cpp.o"
+},
+{
+  "directory": "/Users/devinechinemere/Documents/COSC414-project/build/src",
+  "command": "/usr/bin/clang++  -I/Users/devinechinemere/Documents/COSC414-project/src -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -mmacosx-version-min=13.5 -o CMakeFiles/SchedulerCore.dir/Process.cpp.o -c /Users/devinechinemere/Documents/COSC414-project/src/Process.cpp",
+  "file": "/Users/devinechinemere/Documents/COSC414-project/src/Process.cpp",
+  "output": "src/CMakeFiles/SchedulerCore.dir/Process.cpp.o"
+},
+{
+  "directory": "/Users/devinechinemere/Documents/COSC414-project/build/src",
+  "command": "/usr/bin/clang++  -I/Users/devinechinemere/Documents/COSC414-project/src -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -mmacosx-version-min=13.5 -o CMakeFiles/CPU_Scheduler.dir/main.cpp.o -c /Users/devinechinemere/Documents/COSC414-project/src/main.cpp",
+  "file": "/Users/devinechinemere/Documents/COSC414-project/src/main.cpp",
+  "output": "src/CMakeFiles/CPU_Scheduler.dir/main.cpp.o"
+},
+{
+  "directory": "/Users/devinechinemere/Documents/COSC414-project/build/test",
+  "command": "/usr/bin/clang++  -I/Users/devinechinemere/Documents/COSC414-project/test/../src -isystem /opt/homebrew/include -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -mmacosx-version-min=13.5 -o CMakeFiles/test.dir/test.cpp.o -c /Users/devinechinemere/Documents/COSC414-project/test/test.cpp",
+  "file": "/Users/devinechinemere/Documents/COSC414-project/test/test.cpp",
+  "output": "test/CMakeFiles/test.dir/test.cpp.o"
+}
+]

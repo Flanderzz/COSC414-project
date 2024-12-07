@@ -1,12 +1,12 @@
 #include "../include/RoundRobin.h"
+#include <algorithm>
 #include <iostream>
-#include <queue>
 
-RoundRobin::RoundRobin(int quantum) : quantum(quantum) {}
+RoundRobin::RoundRobin(uint32_t quantum) : quantum(quantum) {}
 
 void RoundRobin::schedule(std::vector<Process>& processes) {
     std::queue<Process*> readyQueue;
-    int time = 0;
+    uint32_t time = 0;
     size_t index = 0;
 
     while (index < processes.size() || !readyQueue.empty()) {
@@ -19,17 +19,19 @@ void RoundRobin::schedule(std::vector<Process>& processes) {
             Process* current = readyQueue.front();
             readyQueue.pop();
 
-            if (current->responseTime == -1) {
-                current->responseTime = time - current->arrivalTime;
+            if (current->metrics.responseTime == -1) {
+                current->metrics.responseTime = time - current->arrivalTime;
             }
 
-            int timeSlice = std::min(quantum, current->remainingTime);
-            current->remainingTime -= timeSlice;
+            uint32_t timeSlice = std::min(quantum, current->state.remainingTime);
+            current->state.remainingTime -= timeSlice;
             time += timeSlice;
 
-            if (current->remainingTime == 0) {
-                current->turnaroundTime = time - current->arrivalTime;
-                current->waitingTime = current->turnaroundTime - current->burstTime;
+            if (current->state.remainingTime == 0) {
+                current->state.isCompleted = true;
+                current->metrics.turnaroundTime = time - current->arrivalTime;
+                current->metrics.waitingTime =
+                    current->metrics.turnaroundTime - current->burstTime;
             } else {
                 readyQueue.push(current);
             }

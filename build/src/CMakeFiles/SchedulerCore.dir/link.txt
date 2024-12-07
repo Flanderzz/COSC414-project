@@ -1,0 +1,2 @@
+/usr/bin/ar qc libSchedulerCore.a CMakeFiles/SchedulerCore.dir/Scheduler.cpp.o CMakeFiles/SchedulerCore.dir/RoundRobin.cpp.o CMakeFiles/SchedulerCore.dir/Process.cpp.o
+/usr/bin/ranlib libSchedulerCore.a

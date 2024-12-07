@@ -2,12 +2,13 @@
 #define ROUND_ROBIN_H
 
 #include "Scheduler.h"
+#include <queue>
 
 class RoundRobin : public Scheduler {
 private:
-    int quantum;
+    uint32_t quantum;
 public:
-    RoundRobin(int quantum);
+    RoundRobin(uint32_t quantum);
     void schedule(std::vector<Process>& processes) override;
 };
 
